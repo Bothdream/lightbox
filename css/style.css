@@ -1,0 +1,45 @@
+/******重置样式*******/
+body,html{margin:0;padding: 0;font-family: 'youyuan';}
+ul,li{list-style: none;}
+a{text-decoration:none;}
+.clear{clear: both;}
+
+/******独立样式*****/
+ .header{
+	text-align: center;
+	padding-top:10px;
+	padding-bottom:10px;  
+}
+.contanier{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.content p.desc{display: inline-block;}
+img.img{
+	width: 500px;
+	height: 200px;
+	border:0;/*去IE下的图片边框*/
+ 	text-align: center;
+} 
+
+/***********插件样式***********/
+.btn{
+	width: 50px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	z-Index: 10000;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.pre-btn{
+	left: 0;
+	background-image: url('./1.png');
+	background-position: left center;
+}
+.next-btn{
+	right: 0;
+	background-image: url('./2.png');
+	background-position: right center;
+}
